@@ -1,4 +1,5 @@
 'use client'
+import { Analytics } from "@vercel/analytics/react"
 import Image from "next/image";
 import {useState, useEffect, useRef} from 'react'
 import { Box, Button, Stack, TextField, Paper, Typography } from '@mui/material'
